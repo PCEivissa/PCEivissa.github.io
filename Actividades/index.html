@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 0px;
+        width: 175px;
+        }
+    .tdrojo {
+        background-color: rgb(253, 5, 5);
+    }
+    .tdamarillo {
+        background-color: rgb(253, 253, 114);
+    }
+    .tdgris{
+        background-color: grey;
+    }
+    #collapse {
+        border: 0px;
+    }
+    .titulos{
+        text-align: center;
+    }
+    </style>
+
+</head>
+<body>
+    <table>
+        <p class="titulos">Tabla de películas, directores y guionistas</p>
+        <tr>
+            <td class="tdamarillo" id="collapse"><strong>Películas</strong></td>
+            <td class="tdgris" id="collapse"><strong>Directores</strong></td>
+            <td class="tdrojo" id="collapse"><strong>Guionistas</strong></td>
+        </tr>
+        <tr>
+            <td class="tdamarillo">Los otros <img src="losotros.jpg" alt="img" width="30"></td>
+            <td class="tdgris" colspan="2">Alejandro Amenábar</td>
+        </tr>
+        <tr>
+            <td class="tdamarillo">Abre los ojos <img src="abrelosojos.jpg" alt="img" width="30"></td>
+            <td class="tdgris">Alejandro Amenábar</td>
+            <td class="tdrojo">Mateo Gil</td>
+        </tr>
+        <tr>
+            <td class="tdamarillo">Los pájaros <img src="lospajaros.jpg" alt="img" width="30"></td>
+            <td class="tdgris">Alfred Hitchcock</td>
+            <td class="tdrojo">Evan Hunter</td>
+        </tr>
+    </table>
+    <table>
+        <p class="titulos">Tabla de películas, directores y guionistas</p>
+        <tr>
+            <td class="tdamarillo" id="collapse"><strong>Películas</strong></td>
+            <td class="tdgris" id="collapse"><strong>Directores</strong></td>
+            <td class="tdrojo" id="collapse"><strong>Guionistas</strong></td>
+        </tr>
+        <tr>
+            <td class="tdamarillo">Los otros <img src="losotros.jpg" alt="img" width="30"></td>
+            <td class="tdgris">Alejandro Amenábar</td>
+            <td class="tdrojo">Alejandro Amenábar</td>
+        </tr>
+        <tr>
+            <td class="tdamarillo">Abre los ojos <img src="abrelosojos.jpg" alt="img" width="30"></td>
+            <td class="tdgris">Alejandro Amenábar</td>
+            <td class="tdrojo">Mateo Gil</td>
+        </tr>
+    </table>
+</body>
+</html>
